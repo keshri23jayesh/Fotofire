@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="bottom">
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48"
+        android:layout_marginLeft="@dimen/x32"
+        android:layout_marginRight="@dimen/x32"
+        android:layout_marginBottom="@dimen/x32"
+        android:paddingLeft="@dimen/x16"
+        android:textSize="@dimen/xs16"
+        android:hint="Email"
+        android:background="@drawable/back"
+        android:textColor="@color/black"
+        android:textColorHint="@color/textHintBold"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/x8"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x48"
+        android:layout_marginLeft="@dimen/x32"
+        android:layout_marginRight="@dimen/x32"
+        android:layout_marginBottom="@dimen/x32"
+        android:paddingLeft="@dimen/x16"
+        android:textSize="@dimen/xs16"
+        android:hint="Password"
+        android:background="@drawable/back"
+        android:textColor="@color/black"
+        android:textColorHint="@color/textHintBold"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/x8"
+        android:password="true" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x56"
+        android:text="Signin"
+        android:id="@+id/Signin"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginRight="@dimen/x22"
+        android:layout_marginLeft="@dimen/x22"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/x8"
+        android:paddingBottom="@dimen/x8"
+        android:paddingRight="@dimen/x16"
+        android:paddingLeft="@dimen/x16">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/lightGrey"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textHintBold"
+            android:text="or"
+            android:textSize="@dimen/xs22"
+            android:textAlignment="center"
+            android:paddingLeft="@dimen/x22"
+            android:paddingRight="@dimen/x22"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x1"
+            android:background="@color/lightGrey"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x56"
+        android:text="Google Sign in"
+        android:id="@+id/Gsignin"
+        android:layout_marginRight="@dimen/x22"
+        android:layout_marginLeft="@dimen/x22"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x56"
+        android:background="@color/lightGrey"
+        android:text="Not a account? Sign Up"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/xs16"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/x32"
+        android:id="@+id/Signup"/>
+
+</LinearLayout>

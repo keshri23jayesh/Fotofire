@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/x16"
+        android:orientation="vertical"
+        android:background="@color/lightGrey">
+
+        <ImageView
+            android:id="@+id/backImgAtCreatePost"
+            android:layout_width="@dimen/x48"
+            android:layout_height="@dimen/x32"
+            android:layout_marginTop="@dimen/x8"
+            android:layout_marginLeft="@dimen/x4"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Post"
+            android:textColor="@color/black"
+            android:textSize="@dimen/xs22"
+            android:paddingLeft="@dimen/x32"
+            android:paddingTop="@dimen/x8"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload and image with title and description"
+            android:textColor="@color/textHintBold"
+            android:textSize="@dimen/xs12"
+            android:paddingLeft="@dimen/x32"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/linearLayout">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/post_img"
+            android:layout_width="@dimen/x128"
+            android:layout_height="@dimen/x128"
+            android:src="@drawable/ic_file_upload_black_24dp"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_width="@dimen/x2"
+            app:civ_border_color="@color/holo_blue_bright"
+            app:civ_circle_background_color="@color/lightGrey"
+            app:civ_fill_color="@color/lightGrey"
+            android:layout_marginTop="@dimen/x22"/>
+
+        <EditText
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x48"
+            android:layout_marginLeft="@dimen/x32"
+            android:layout_marginRight="@dimen/x32"
+            android:layout_marginBottom="@dimen/x8"
+            android:paddingLeft="@dimen/x16"
+            android:textSize="@dimen/xs16"
+            android:hint="Title"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/back"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textHintBold"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/x64" />
+
+        <EditText
+            android:id="@+id/post_details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x64"
+            android:layout_marginLeft="@dimen/x32"
+            android:layout_marginRight="@dimen/x32"
+            android:layout_marginBottom="@dimen/x32"
+            android:paddingLeft="@dimen/x16"
+            android:textSize="@dimen/xs16"
+            android:hint="Details"
+            android:background="@drawable/back"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textHintBold"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/x8"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/textHintLight"
+        android:layout_above="@id/frameLayout"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x64"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/x8"
+        android:paddingLeft="@dimen/x16"
+        android:paddingRight="@dimen/x16"
+        android:paddingTop="@dimen/x8"
+        android:layout_alignParentBottom="true">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/Post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Post"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</RelativeLayout>

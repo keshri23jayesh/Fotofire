@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "836230002747",
+    "firebase_url": "https://fotofire-9c81b.firebaseio.com",
+    "project_id": "fotofire-9c81b",
+    "storage_bucket": "fotofire-9c81b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836230002747:android:783d17c2187c13af",
+        "android_client_info": {
+          "package_name": "com.example.jayesh123.fotofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836230002747-jdm7mnc0lkhl8m1defe1tr38poub68me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jayesh123.fotofire",
+            "certificate_hash": "03ea0f97def0e876f530260d2c33ca2e04531e72"
+          }
+        },
+        {
+          "client_id": "836230002747-qcnsrha5pjda01vio3obc3jup69ctgrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClyu-5jCysF9ra_fyWu27qLTkV3w8BDL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836230002747-qcnsrha5pjda01vio3obc3jup69ctgrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

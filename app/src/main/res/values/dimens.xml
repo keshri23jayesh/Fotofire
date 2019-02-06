@@ -1,0 +1,58 @@
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. 304 -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_height">80dp</dimen>
+    <dimen name="md_keylines">16dp</dimen>
+    <dimen name="tile_padding">8dp</dimen>
+    <dimen name="tile_height">160dp</dimen>
+    <dimen name="app_bar_height">256dp</dimen>
+    <dimen name="article_keylines">72dp</dimen>
+    <dimen name="avator_size">40dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="article_titles">20sp</dimen>
+    <dimen name="cards_button_width">48dp</dimen>
+    <dimen name="cards_button_height">48dp</dimen>
+    <dimen name="article_subheading">16sp</dimen>
+    <dimen name="card_image_height">200dp</dimen>
+    <dimen name="list_body">14sp</dimen>
+    <dimen name="navheader_height">222dp</dimen>
+
+    <!--    Font Size   -->
+    <dimen name="xs12">12sp</dimen>
+    <dimen name="xs16">16sp</dimen>
+    <dimen name="xs22">22sp</dimen>
+    <dimen name="xs32">32sp</dimen>
+
+    <!--    Dimension   -->
+    <dimen name="x1">1dp</dimen>
+    <dimen name="x2">2dp</dimen>
+    <dimen name="x4">4dp</dimen>
+    <dimen name="x8">8dp</dimen>
+    <dimen name="x12">12dp</dimen>
+    <dimen name="x16">16dp</dimen>
+    <dimen name="x22">22dp</dimen>
+    <dimen name="x32">32dp</dimen>
+    <dimen name="x48">48dp</dimen>
+    <dimen name="x56">56dp</dimen>
+    <dimen name="x64">64dp</dimen>
+    <dimen name="x70">70dp</dimen>
+    <dimen name="x128">128dp</dimen>
+    <dimen name="x256">256dp</dimen>
+
+</resources>
